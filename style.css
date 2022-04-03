@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.buy-btn {
+    background: linear-gradient( to right , #fb5283, #ff3527);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 130px;
+}
+
+.buy-btn img {
+    width: 30px;
+    display: none;
+}
+
+.buy-btn:hover img{
+    display: inline-block;
+    transition: .5s;
+}
+
+.banner-col-1 {
+    position: relative;
+}
+
+.banner-col-1::after {
+    content: '';
+    width: 7px;
+    height: 57%;
+    background: linear-gradient( to right , #fb5283, #ff3527);
+    position: absolute;
+    top: 8px;
+    left: -10px;
+}
+
+.banner-text h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+}
+
+.banner-text h3 {
+    font-size: 25px;
+    color: #929292;
+}
+
+.banner-text p {
+    font-size: 16px;
+    color: #999999;
+}
+
+.banner-text h4 {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.product {
+    position: relative;
+}
+
+.product img {
+    width: 90%;
+}
+
+.product .color-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient( to right , #fb5283, #ff3527);
+    height: 100%;
+    width: 60%;
+    border-radius: 20px 0 0 20px;
+    z-index: -1;
+}
+
+.add-btn {
+    width: 110px;
+    text-align: center;
+    margin-left: auto;
+    margin-top: -30px;
+    color: white;
+    cursor: pointer;
+}
+
+.add-btn img {
+    width: 30px;
+}
+
+.social-links img {
+    height: 15px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.social-links img:hover {
+    transform: translateY(-5px);
+}
