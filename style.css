@@ -92,10 +92,15 @@
     width: 30px;
 }
 
+.social-links {
+    text-align: center;
+}
+
 .social-links img {
-    height: 15px;
+    height: 18px;
     margin: 20px;
     cursor: pointer;
+    transition: .3s;
 }
 
 .social-links img:hover {
